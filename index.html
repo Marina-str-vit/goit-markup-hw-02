@@ -11,6 +11,14 @@
       rel="stylesheet"
       href="https://cdnjs.com/libraries/modern-normalize"
     />
+    <link
+      rel="stylesheet"
+      href="https://https://fonts.google.com/specimen/Roboto?query=roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Raleway?query=Raleway"
+    />
     <!-- after my style -->
     <link rel="stylesheet" href="./css/styles.css" />
     <title><goit-mark-hw-02></title>
@@ -21,12 +29,12 @@
     <header>
       <nav>
         <a class="logo" href="./index.html"
-          ><span class="partlogo">Web</span>Studio</a
+          >Web<span class="logo-part">Studio</span></a
         >
         <ul class="menu-nav">
-          <li><a href="" class="link">Studio</a></li>
-          <li><a href="" class="link">Portfolio</a></li>
-          <li><a href="" class="link">Contacts</a></li>
+          <li><a class="link" href="./index.html">Studio</a></li>
+          <li><a href="/" class="link">Portfolio</a></li>
+          <li><a href="/" class="link">Contacts</a></li>
         </ul>
       </nav>
 
@@ -54,7 +62,7 @@
       <section class="block-feature">
         <!-- h2 is empty -->
         <h2 class="block-feature-hide">Feature</h2>
-        <ul>
+        <ul class="block-feature-list">
           <li>
             <h3 class="block-feature-h3">Strategy</h3>
             <p class="block-feature-text">
@@ -63,22 +71,22 @@
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="block-feature-h3">Punctuality</h3>
+            <p class="block-feature-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="block-feature-h3">Diligence</h3>
+            <p class="block-feature-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="block-feature-h3">Technologies</h3>
+            <p class="block-feature-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -88,33 +96,33 @@
 
       <section class="block-team">
         <h2 class="block-team-h2">Our Team</h2>
-        <ul>
+        <ul class="block-team-list">
           <li>
             <img src="./images/Mark.jpg" alt="Mark's foto" width="264" />
             <h3 class="block-team-h3">Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <p class="block-team-p">Product Designer</p>
           </li>
           <li>
             <img src="./images/Tom.jpg" alt="Tom's foto" width="264" />
-            <h3>Tom Ford</h3>
+            <h3 class="block-team-h3">Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
             <img src="./images/Camila.jpg" alt="Camila's foto" width="264" />
-            <h3>Camila Garcia</h3>
+            <h3 class="block-team-h3">Camila Garcia</h3>
             <p>Marketing</p>
           </li>
           <li>
             <img src="./images/Daniel.jpg" alt="Daniel's foto" width="264" />
-            <h3>Daniel Wilson</h3>
+            <h3 class="block-team-h3">Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
         </ul>
       </section>
 
-      <section>
-        <h2>Our Portfolio</h2>
-        <ul>
+      <section class="portfolio">
+        <h2 class="portfolio-h2">Our Portfolio</h2>
+        <ul class="portfolio-list">
           <li>
             <img
               src="./images/portfolio/1.jpg"
@@ -122,8 +130,8 @@
               width="360"
               height="300"
             />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="portfolio-h3">Banking App</h3>
+            <p class="portfolio-p">App</p>
           </li>
           <li>
             <img
@@ -132,8 +140,8 @@
               width="360"
               height="300"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-h3">Cashless Payment</h3>
+            <p class="portfolio-p">Marketing</p>
           </li>
           <li>
             <img
@@ -142,8 +150,8 @@
               width="360"
               height="300"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="portfolio-h3">Meditation App</h3>
+            <p class="portfolio-p">App</p>
           </li>
           <li>
             <img
@@ -152,8 +160,8 @@
               width="360"
               height="300"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-h3">Taxi Service</h3>
+            <p class="portfolio-p">Marketing</p>
           </li>
           <li>
             <img
@@ -162,8 +170,8 @@
               width="360"
               height="300"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="portfolio-h3">Screen Illustrations</h3>
+            <p class="portfolio-p">Design</p>
           </li>
           <li>
             <img
@@ -172,8 +180,8 @@
               width="360"
               height="300"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-h3">Online Courses</h3>
+            <p class="portfolio-p">Marketing</p>
           </li>
         </ul>
       </section>
@@ -182,9 +190,9 @@
     <!-- footer page -->
     <footer class="block-title">
       <a class="logo" href="./index.html"
-        ><span class="partlogo">Web</span
-        ><span class="partlogo-title">Studio</span>
+        >Web<span class="block-title-logo">Studio</span>
       </a>
+
       <p class="block-title-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
