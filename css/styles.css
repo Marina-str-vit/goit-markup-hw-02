@@ -121,7 +121,7 @@ p {
 
 .box-title-button .link:hover,
 .box-title-button .link:focus {
-  color: #404bbf;
+  background-color: #404bbf;
   text-decoration: underline;
 }
 
@@ -138,24 +138,37 @@ p {
   background: #f4f4fd;
 }
 
-.block-team-list {
+.block-team-h2 {
+  text-align: center;
+}
+
+.block-team-ul {
   background-color: #ffffff;
 }
 
-.portfolio-h2 {
+.block-team-list {
+}
+
+.portfolio {
   text-transform: capitalize;
+}
+
+.portfolio-h2 {
+  text-align: center;
 }
 
 .portfolio-h3 {
-  text-transform: capitalize;
+  text-align: left;
 }
 
-.portfolio-list {
+.portfolio-ul {
   background-color: #ffffff;
 }
 
 .portfolio-p {
+  text-align: left;
   font-size: 16px;
+  text-indent: 0;
 }
 .footer-text {
   color: #434455;
