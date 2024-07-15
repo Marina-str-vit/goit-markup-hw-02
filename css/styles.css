@@ -106,7 +106,7 @@ p {
   text-align: center;
 }
 
-.box-title-button {
+.block-title-button {
   font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   font-weight: 500;
@@ -119,8 +119,8 @@ p {
   text-align: center;
 }
 
-.box-title-button .link:hover,
-.box-title-button .link:focus {
+.block-title-button:hover,
+.block-title-button:focus {
   background-color: #404bbf;
   text-decoration: underline;
 }
@@ -130,6 +130,10 @@ p {
 }
 .block-feature-h2 {
   text-align: center;
+}
+
+.block-feature-ul-list {
+  text-align: left;
 }
 
 .block-team {
@@ -146,7 +150,7 @@ p {
   background-color: #ffffff;
 }
 
-.block-team-list {
+.block-team-ul-list {
   background-color: #ffffff;
 }
 
