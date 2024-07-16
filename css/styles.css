@@ -140,7 +140,7 @@ p {
 .block-feature-h3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -160,12 +160,13 @@ p {
 }
 
 .block-team-h2 {
- font-weight: 700;
   font-size: 36px;
   line-height: 111%;
-  letter-spacing: 0.02em;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
+  
 }
   
 .block-team-ul, .block-team-ul-list {
@@ -175,11 +176,9 @@ p {
 .block-team-h3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
-  text-align: center;
 } 
 
 .block-team-p {
@@ -202,6 +201,7 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-ul, .portfolio-ul-list {
@@ -209,7 +209,6 @@ p {
 }
 
 .portfolio-h3 {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
