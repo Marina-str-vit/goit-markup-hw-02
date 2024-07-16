@@ -137,7 +137,7 @@ p {
   border: none;
 }
 
-.block-feature-h3 {
+.block-feature-ul-list-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -159,7 +159,7 @@ p {
   background: #f4f4fd;
 }
 
-.block-team-h2 {
+.block-team-hide {
   font-size: 36px;
   line-height: 111%;
   text-align: center;
@@ -173,7 +173,7 @@ p {
   background-color: #ffffff;
 }
 
-.block-team-h3 {
+.block-team-ul-list-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -194,7 +194,7 @@ p {
   text-transform: capitalize;
 }
 
-.portfolio-h2 {
+.portfolio-hide {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -208,7 +208,7 @@ p {
   background-color: #ffffff;
 }
 
-.portfolio-h3 {
+.portfolio-ul-list-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
