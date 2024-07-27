@@ -85,11 +85,11 @@ p {
   color: #434455;
 }
 
-.block-title {
+.title {
   background-color: #2e2f42;
 }
 
-.block-title-head {
+.title-head {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -98,7 +98,7 @@ p {
   text-align: center;
 }
 
-.block-title-button {
+.title-button {
   font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   font-weight: 500;
@@ -111,25 +111,25 @@ p {
   text-align: center;
 }
 
-.block-title-button:hover,
-.block-title-button:focus {
+.title-button:hover,
+.title-button:focus {
   background-color: #404bbf;
   text-decoration: underline;
 }
 
-.block-feature {
+.feature {
   text-transform: capitalize;
 }
 
-.block-feature-hide {
+.feature-hide {
   text-align: center;
 }
 
-.block-feature-list, .block-feature-list-item {
+.feature-list, .feature-list-item {
   border: none;
 }
 
-.block-feature-list-item-title, .block-team-list-item-title, .portfolio-list-item-title  {
+.feature-list-item_title, .team-list-item_title, .portfolio-list-item_title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -137,7 +137,7 @@ p {
   color: #2e2f42;
 }
 
-.block-feature-text {
+.feature-list-item_text {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -145,13 +145,13 @@ p {
   color: #434455;
   text-align: left;
 }
-.block-team {
+.team {
   text-transform: capitalize;
   text-align: center;
   background: #f4f4fd;
 }
 
-.block-team-hide {
+.team-hide {
   font-size: 36px;
   line-height: 111%;
   text-align: center;
@@ -161,11 +161,11 @@ p {
   
 }
   
-.block-team-list, .block-team-list-item {
+.team-list, .team-list-item {
   background-color: #ffffff;
 }
 
-.block-team-p {
+.team_text {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -192,24 +192,24 @@ p {
   background-color: #ffffff;
 }
 
-.portfolio-p {
+.portfolio-text {
   text-align: left;
   font-size: 16px;
   text-indent: 0;
 }
-.footer-text {
+.title-text {
   color: #434455;
 }
 
-.block-title {
+.title {
   background: #2e2f42;
   text-align: left;
 }
 
-.block-title-logo {
+.title-logo {
   color: #f4f4fd;
 }
 
-.block-title-text {
+.title-text {
   color: #f4f4fd;
 }
