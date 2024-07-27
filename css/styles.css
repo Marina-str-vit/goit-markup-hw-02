@@ -28,10 +28,8 @@ body {
   text-decoration: none;
 }
 
-.menu-nav .link {
-  font-family: 'Roboto', sans-serif;
+.menu-nav .nav-link {
   font-weight: 500;
-  font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -42,23 +40,21 @@ body {
   font-style: normal;
 }
 
-.address .link {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+.address .address-link {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
 }
 
-.menu-nav .link:hover,
-.menu-nav .link:focus {
+.menu-nav .nav-link:hover,
+.menu-nav .nav-link:focus {
   color: #404bbf;
   text-decoration: underline;
 }
 
-.address .link:hover,
-.address .link:focus {
+.address .address-link:hover,
+.address .address-link:focus {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -77,7 +73,6 @@ h2 {
 
 p {
   font-weight: 400;
-  font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
@@ -97,7 +92,6 @@ p {
 }
 
 .title-button {
-  font-family: 'Roboto', sans-serif;
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -124,13 +118,13 @@ p {
 }
 
 .feature-list,
-.feature-list-item {
+.feature-item {
   border: none;
 }
 
-.feature-list-item_title,
-.team-list-item_title,
-.portfolio-list-item_title {
+.feature-item_title,
+.team-item_title,
+.portfolio-item_title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -138,7 +132,7 @@ p {
   color: #2e2f42;
 }
 
-.feature-list-item_text {
+.feature-item_text {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -162,7 +156,7 @@ p {
 }
 
 .team-list,
-.team-list-item {
+.team-item {
   background-color: #ffffff;
 }
 
@@ -190,7 +184,7 @@ p {
 }
 
 .portfolio-list,
-.portfolio-list-item {
+.portfolio-item {
   background-color: #ffffff;
 }
 
@@ -199,19 +193,19 @@ p {
   font-size: 16px;
   text-indent: 0;
 }
-.title-text {
+.footer-text {
   color: #434455;
 }
 
-.title {
+.footer {
   background: #2e2f42;
   text-align: left;
 }
 
-.title-logo {
+.footer-logo {
   color: #f4f4fd;
 }
 
-.title-text {
+.footer-text {
   color: #f4f4fd;
 }
