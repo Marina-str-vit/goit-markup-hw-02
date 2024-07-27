@@ -1,15 +1,13 @@
 body {
-  font-family: "Roboto", sans-serif;
-  font-weight: Regular;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
   background-color: #ffffff;
   color: #434455;
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -20,7 +18,7 @@ body {
 }
 
 .logo-part {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -31,7 +29,7 @@ body {
 }
 
 .menu-nav .link {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -45,7 +43,7 @@ body {
 }
 
 .address .link {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -99,7 +97,7 @@ p {
 }
 
 .title-button {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -125,11 +123,14 @@ p {
   text-align: center;
 }
 
-.feature-list, .feature-list-item {
+.feature-list,
+.feature-list-item {
   border: none;
 }
 
-.feature-list-item_title, .team-list-item_title, .portfolio-list-item_title {
+.feature-list-item_title,
+.team-list-item_title,
+.portfolio-list-item_title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -158,10 +159,10 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  
 }
-  
-.team-list, .team-list-item {
+
+.team-list,
+.team-list-item {
   background-color: #ffffff;
 }
 
@@ -188,7 +189,8 @@ p {
   text-transform: capitalize;
 }
 
-.portfolio-list, .portfolio-list-item {
+.portfolio-list,
+.portfolio-list-item {
   background-color: #ffffff;
 }
 
